@@ -11,7 +11,7 @@ public class CarController {
 
     @GetMapping("/api/v1/helloworld")
     public ResponseEntity<String> helloWorld(){
-        return new ResponseEntity<>("Hello xyzWorld", HttpStatus.OK);
+        return new ResponseEntity<>("Hello abcWorld", HttpStatus.OK);
     }
 
 }
